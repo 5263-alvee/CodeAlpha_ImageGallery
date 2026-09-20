@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>My Image Gallery</h1>
+
+    <div class="gallery">
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1015/600/400" alt="Mountain">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1016/600/400" alt="Nature">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1025/600/400" alt="Dog">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1035/600/400" alt="River">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1043/600/400" alt="Beach">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/106/600/400" alt="Water">
+        </div>
+
+    </div>
+
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+
+        <button id="closeBtn" class="close">&times;</button>
+
+        <button id="prevBtn" class="navigation prev">
+            &#10094;
+        </button>
+
+        <img id="lightboxImage" src="" alt="">
+
+        <button id="nextBtn" class="navigation next">
+            &#10095;
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
